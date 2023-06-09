@@ -1,0 +1,132 @@
+body {
+    display: grid;
+    place-items: center;
+    color: #1f1e1e;
+    background-color: #464545;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.caja {
+    position: relative;
+    width: 220px;
+    height: 400px;
+    background: #adabab;
+    padding: 20px;
+    border-radius: 60px;
+}
+
+
+
+
+/* .caja::before,
+.loginMask{
+    content: "";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 682px;
+    height: 514px;
+}
+.caja::before{
+    background: url(../bg-circuito.svg);
+}
+.loginMask{
+    display: grid;
+    place-items: center;
+     -webkit-mask: url(../bg-circuito.svg);
+    mask: url(../bg-circuito.svg);
+}
+.loginMask::before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 8px solid #63f3c3;
+    animation: movimiento 4s infinite;
+    animation-delay: 2  qs;
+} */
+
+@keyframes movimiento {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(8);
+    }
+}
+
+
+
+
+
+
+
+a {
+    display: flex;
+    justify-content: center;
+    color: rgb(17, 17, 17);
+    font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input {
+    margin-top: 10px;
+    background-color: rgba(90, 84, 84, 0.308);
+}
+
+
+label {
+    color: rgb(39, 39, 39);
+}
+
+
+input[type="contra"],
+input[type="apellido"],
+input[type="name"],
+input[type="email"],
+a {
+    border: 1px #292727;
+    border-radius: 40px;
+    padding: 5px 10px;
+
+
+}
+
+
+input[type="submit"] {
+    border: none;
+    border-radius: 100px;
+    padding: 10px 20px;
+    background-color: #809696;
+    color: rgb(43, 43, 43);
+}
+
+
+label{
+    margin-top: 1rem;
+}
