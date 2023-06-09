@@ -181,6 +181,7 @@ input[type="submit"] {
 input[type="submit"]:is(:hover, :focus) {
     background-color:#3452b5 ;
     letter-spacing: 1px;
+    cursor: pointer;
     color: #dbd9d9;
 }
 
