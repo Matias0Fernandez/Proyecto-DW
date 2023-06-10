@@ -17,56 +17,6 @@ body {
     border-radius: 60px;
 }
 
-
-
-
-/* .caja::before,
-.loginMask{
-    content: "";
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: block;
-    position: absolute;
-    z-index: -1;
-    width: 682px;
-    height: 514px;
-}
-.caja::before{
-    background: url(../bg-circuito.svg);
-}
-.loginMask{
-    display: grid;
-    place-items: center;
-     -webkit-mask: url(../bg-circuito.svg);
-    mask: url(../bg-circuito.svg);
-}
-.loginMask::before{
-    content: "";
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 8px solid #63f3c3;
-    animation: movimiento 4s infinite;
-    animation-delay: 2  qs;
-} */
-
-@keyframes movimiento {
-    0%{
-        transform: scale(1);
-    }
-    100%{
-        transform: scale(8);
-    }
-}
-
-
-
-
-
-
-
 a {
     display: flex;
     justify-content: center;
@@ -75,7 +25,6 @@ a {
 
 
 }
-
 
 form {
     display: flex;
@@ -86,24 +35,20 @@ form {
 
 }
 
-
 html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     justify-content: center;
     align-items: center;
 }
 
-
 input {
     margin-top: 10px;
     background-color: rgba(90, 84, 84, 0.308);
 }
 
-
 label {
     color: rgb(39, 39, 39);
 }
-
 
 input[type="contra"],
 input[type="apellido"],
@@ -127,6 +72,6 @@ input[type="submit"] {
 }
 
 
-label{
+label {
     margin-top: 1rem;
 }

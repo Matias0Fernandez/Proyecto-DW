@@ -2,11 +2,10 @@ body {
     display: grid;
     place-items: center;
     color: #1f1e1e;
-    background-color: hwb(0 95% 5%);
+    background-color: hwb(0 72% 23%);
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 
 .caja {
     position: relative;
@@ -16,7 +15,6 @@ body {
     padding: 20px;
     border-radius: 60px;
 }
-
 
 .caja::before,
 .loginMask {
@@ -31,11 +29,9 @@ body {
     height: 500px;
 }
 
-
 .caja::before {
     background: url(../images/Logo\ blanco\ sin\ lo\ blanco\ y\ el\ cuerpo\ negro.png);
 }
-
 
 .loginMask {
     display: grid;
@@ -44,12 +40,11 @@ body {
     mask: url(../images/Logo\ blanco\ sin\ lo\ blanco\ y\ el\ cuerpo\ negro.png);
 }
 
-
 .loginMask::before {
     content: "";
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 0%;
     animation: mov1 12s infinite;
 }
@@ -61,66 +56,55 @@ body {
         transform: scale(0);
     }
 
-
     9% {
         background-color: #33b822;
         transform: scale(2);
     }
 
-
     18% {
         background-color: #df2727;
         transform: scale(2);
-    }   
-
+    }
 
     27% {
         background-color: #df2727;
         transform: scale(3);
     }
 
-
     36% {
         background-color: #ceac17;
         transform: scale(3);
     }
-
 
     45% {
         background-color: #ceac17;
         transform: scale(4);
     }
 
-
     54% {
         background-color: #2a52d4;
         transform: scale(5);
     }
 
-
     63% {
         background-color: #2a52d4;
-        transform: scale(6);
-    }
-
-
-    72% {
-        background-color: #33b822;
-        transform: scale(7);
-    }
-
-
-    81% {
-        background-color: #33b822;
         transform: scale(5);
     }
 
-
-    90% {
-        background-color: #df2727;
+    72% {
+        background-color: #33b822;
         transform: scale(4);
     }
 
+    81% {
+        background-color: #33b822;
+        transform: scale(3);
+    }
+
+    90% {
+        background-color: #df2727;
+        transform: scale(3);
+    }
 
     99% {
         background-color: #df2727;
@@ -128,12 +112,11 @@ body {
     }
 }
 
-
 a {
     display: flex;
     justify-content: center;
     color: rgb(17, 17, 17);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
 }
 
 form {
@@ -143,24 +126,24 @@ form {
     flex-direction: column;
 }
 
-
 html {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     justify-content: center;
     align-items: center;
 }
-
 
 input {
     margin-top: 10px;
     background-color: rgba(90, 84, 84, 0.308);
 }
 
-
 label {
     color: rgb(39, 39, 39);
 }
 
+input[type="contra"] {
+    -webkit-text-security: disc;
+}
 
 input[type="contra"],
 input[type="email"],
@@ -170,7 +153,6 @@ a {
     padding: 5px 10px;
 }
 
-
 input[type="submit"] {
     border: none;
     border-radius: 100px;
@@ -178,8 +160,9 @@ input[type="submit"] {
     background-color: #809696;
     color: rgb(43, 43, 43);
 }
+
 input[type="submit"]:is(:hover, :focus) {
-    background-color:#3452b5 ;
+    background-color: #3452b5;
     letter-spacing: 1px;
     cursor: pointer;
     color: #dbd9d9;
@@ -189,13 +172,12 @@ input[type="submit"]:is(:hover, :focus) {
     border: none;
     border-radius: 100px;
     color: rgb(43, 43, 43);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     position: fixed;
     top: 20px;
     right: 20px;
     display: inline-block;
 }
-
 
 .boton {
     background-color: #afacac;
@@ -207,7 +189,6 @@ input[type="submit"]:is(:hover, :focus) {
     cursor: pointer;
 }
 
-
 .desplegar-contenido {
     display: none;
     position: absolute;
@@ -217,12 +198,10 @@ input[type="submit"]:is(:hover, :focus) {
     z-index: 1;
 }
 
-
 a {
     border-radius: 30%;
     color: #3b3b3b;
 }
-
 
 .desplegar-contenido a {
     color: #333;
@@ -230,7 +209,6 @@ a {
     text-decoration: none;
     display: block;
 }
-
 
 .desplegar:hover .desplegar-contenido {
     display: contents;
