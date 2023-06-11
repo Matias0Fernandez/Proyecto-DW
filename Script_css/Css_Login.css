@@ -30,14 +30,14 @@ body {
 }
 
 .caja::before {
-    background: url(../images/Logo\ blanco\ sin\ lo\ blanco\ y\ el\ cuerpo\ negro.png);
+    background: url(../images/logo.png);
 }
 
 .loginMask {
     display: grid;
     place-items: center;
-    -webkit-mask: url(../images/Logo\ blanco\ sin\ lo\ blanco\ y\ el\ cuerpo\ negro.png);
-    mask: url(../images/Logo\ blanco\ sin\ lo\ blanco\ y\ el\ cuerpo\ negro.png);
+    -webkit-mask: url(../images/logo.png);
+    mask: url(../images/logo.png);
 }
 
 .loginMask::before {
