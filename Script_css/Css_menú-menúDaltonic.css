@@ -1,3 +1,9 @@
+.daltonic:hover{
+  background-color: black;
+  color: white;
+  border-radius: 25%;
+}
+
 body {
   background-color: #e7e7e7;
   margin: 0;
@@ -12,7 +18,7 @@ header {
   padding: 20px;
 }
 
-nav li:hover {
+.lis:hover {
   background-color: rgba(210, 185, 85, 0.415);
   border-radius: 30%;
 }
