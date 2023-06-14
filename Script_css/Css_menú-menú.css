@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .daltonic:hover{
   background-color: black;
   color: white;
@@ -7,6 +8,8 @@
   
 }
 
+=======
+>>>>>>> 96c5eeb3d5e082979aea3ffac570c5fe6b6563c4
 body {
   background-color: #e7e7e7;
   margin: 0;
@@ -21,6 +24,7 @@ header {
   padding: 20px;
 }
 
+<<<<<<< HEAD
 .lisHome:hover {
   text-shadow: 0 0 10px #4cbd51, 0 0 10px #4cbd51, 0 0 40px #4cbd51;
   color: #ffffff;
@@ -40,23 +44,37 @@ header {
   text-shadow: 0 0 10px #e19f59, 0 0 10px #e19f59, 0 0 40px #e19f59;
   color: #ffffff;
   
+=======
+.List:hover {
+  background-color: rgb(170, 170, 170);
+  color: white;
+  border-radius: 0%;
+  padding: 5px;
+}
+
+.Pic {
+  margin-left: 10px;
+  margin-top: 10px;
+>>>>>>> 96c5eeb3d5e082979aea3ffac570c5fe6b6563c4
 }
 
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  float: right;
+  margin-top: 3rem;
 }
 
 nav li {
   display: inline;
   align-items: center;
+  padding: 10px;
 }
 
 nav a {
-  color: #000000;
+  color: rgba(0, 0, 0, 0.856);
   text-decoration: none;
-  margin-right: 10px;
 }
 
 main {
@@ -81,12 +99,27 @@ section {
 
 h1,
 h2 {
-  color: #000000;
+  color: rgba(0, 0, 0, 0.856);
 }
 
 footer {
   background-color: #ffffff;
-  color: #000000;
+  color: black;
   padding: 20px;
   text-align: center;
+}
+
+input[type="submit"] {
+  border: none;
+  border-radius: 100px;
+  padding: 10px 15px;
+  background-color: #809696;
+  color: rgb(43, 43, 43);
+}
+
+input[type="submit"]:is(:hover, :focus) {
+  background-color: #3d539c;
+  letter-spacing: 1px;
+  cursor: pointer;
+  color: #dbd9d9;
 }
