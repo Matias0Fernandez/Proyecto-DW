@@ -3,6 +3,9 @@
   color: white;
   border-radius: 25%;
 }
+.navNAV{
+  
+}
 
 body {
   background-color: #e7e7e7;
@@ -18,9 +21,25 @@ header {
   padding: 20px;
 }
 
-.lis:hover {
-  background-color: rgba(210, 185, 85, 0.415);
-  border-radius: 30%;
+.lisHome:hover {
+  text-shadow: 0 0 10px #4cbd51, 0 0 10px #4cbd51, 0 0 40px #4cbd51;
+  color: #ffffff;
+  
+}
+.lisOWork:hover {
+  text-shadow: 0 0 10px #d12727, 0 0 10px #d12727, 0 0 40px #d12727;
+  color: #ffffff;
+  
+}
+.lisAUs:hover {
+  text-shadow: 0 0 10px #49a8df, 0 0 10px #49a8df, 0 0 40px #49a8df;
+  color: #ffffff;
+  
+}
+.lisLIn:hover {
+  text-shadow: 0 0 10px #e19f59, 0 0 10px #e19f59, 0 0 40px #e19f59;
+  color: #ffffff;
+  
 }
 
 nav ul {
