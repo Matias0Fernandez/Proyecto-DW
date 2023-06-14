@@ -1,15 +1,4 @@
-<<<<<<< HEAD
-.daltonic:hover{
-  background-color: black;
-  color: white;
-  border-radius: 25%;
-}
-.navNAV{
-  
-}
 
-=======
->>>>>>> 96c5eeb3d5e082979aea3ffac570c5fe6b6563c4
 body {
   background-color: #e7e7e7;
   margin: 0;
@@ -23,8 +12,6 @@ header {
   background-color: #ffffff;
   padding: 20px;
 }
-
-<<<<<<< HEAD
 .lisHome:hover {
   text-shadow: 0 0 10px #4cbd51, 0 0 10px #4cbd51, 0 0 40px #4cbd51;
   color: #ffffff;
@@ -39,23 +26,6 @@ header {
   text-shadow: 0 0 10px #49a8df, 0 0 10px #49a8df, 0 0 40px #49a8df;
   color: #ffffff;
   
-}
-.lisLIn:hover {
-  text-shadow: 0 0 10px #e19f59, 0 0 10px #e19f59, 0 0 40px #e19f59;
-  color: #ffffff;
-  
-=======
-.List:hover {
-  background-color: rgb(170, 170, 170);
-  color: white;
-  border-radius: 0%;
-  padding: 5px;
-}
-
-.Pic {
-  margin-left: 10px;
-  margin-top: 10px;
->>>>>>> 96c5eeb3d5e082979aea3ffac570c5fe6b6563c4
 }
 
 nav ul {
