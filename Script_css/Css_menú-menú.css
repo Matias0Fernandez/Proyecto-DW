@@ -12,18 +12,18 @@ header {
   background-color: #ffffff;
   padding: 20px;
 }
-.lisHome:hover {
-  text-shadow: 0 0 10px #4cbd51, 0 0 10px #4cbd51, 0 0 40px #4cbd51;
+.LisHome:hover {
+  text-shadow: 0 0 10px #30c938, 0 0 10px #30c938, 0 0 40px #30c938;
   color: #ffffff;
   
 }
-.lisOWork:hover {
+.LisOWork:hover {
   text-shadow: 0 0 10px #d12727, 0 0 10px #d12727, 0 0 40px #d12727;
   color: #ffffff;
   
 }
-.lisAUs:hover {
-  text-shadow: 0 0 10px #49a8df, 0 0 10px #49a8df, 0 0 40px #49a8df;
+.LisAUs:hover {
+  text-shadow: 0 0 10px #2987bd, 0 0 10px #2987bd, 0 0 40px #2987bd;
   color: #ffffff;
   
 }
