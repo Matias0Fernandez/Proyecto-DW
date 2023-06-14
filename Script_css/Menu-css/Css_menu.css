@@ -1,3 +1,4 @@
+
 body {
   background-color: #e7e7e7;
   margin: 0;
@@ -11,17 +12,20 @@ header {
   background-color: #ffffff;
   padding: 20px;
 }
-
-.List:hover {
-  background-color: rgb(170, 170, 170);
-  color: white;
-  border-radius: 0%;
-  padding: 5px;
+.LisHome:hover {
+  text-shadow: 0 0 10px #30c938, 0 0 10px #30c938, 0 0 40px #30c938;
+  color: #ffffff;
+  
 }
-
-.Pic {
-  margin-left: 10px;
-  margin-top: 10px;
+.LisOWork:hover {
+  text-shadow: 0 0 10px #d12727, 0 0 10px #d12727, 0 0 40px #d12727;
+  color: #ffffff;
+  
+}
+.LisAUs:hover {
+  text-shadow: 0 0 10px #2987bd, 0 0 10px #2987bd, 0 0 40px #2987bd;
+  color: #ffffff;
+  
 }
 
 nav ul {
