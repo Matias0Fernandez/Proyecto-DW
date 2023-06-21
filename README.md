@@ -1,4 +1,4 @@
-To run TailWind use ```bash
+To run TailWind use
 
 
 ```
