@@ -7,7 +7,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.caja {
+.box {
     position: relative;
     width: 220px;
     height: 280px;
@@ -16,8 +16,8 @@ body {
     border-radius: 60px;
 }
 
-.caja::before,
-.loginMask {
+.box::before,
+.logInMask {
     content: "";
     top: 50%;
     left: 50%;
@@ -33,14 +33,14 @@ body {
     background: url(../../images/Login-backgorund-logo.png);
 }
 
-.loginMask {
+.logInMask {
     display: grid;
     place-items: center;
     -webkit-mask: url(../../images/Login-backgorund-logo.png);
     mask: url(../../images/Login-backgorund-logo.png);
 }
 
-.loginMask::before {
+.logInMask::before {
     content: "";
     position: absolute;
     width: 120px;
@@ -141,11 +141,11 @@ label {
     color: rgb(39, 39, 39);
 }
 
-input[type="contra"] {
+input[type="pass"] {
     -webkit-text-security: disc;
 }
 
-input[type="contra"],
+input[type="pass"],
 input[type="email"],
 a {
     border: 1px #292727;
@@ -217,20 +217,21 @@ a {
 label {
     margin-top: 1rem;
 }
+
 .dropdown {
     position: relative;
     display: inline-block;
-  }
+}
 
-  .dropdown-content {
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-  }
+}
 
-  .dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
     display: block;
-  }
+}
