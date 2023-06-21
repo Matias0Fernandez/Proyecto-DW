@@ -2,21 +2,22 @@ body {
     display: grid;
     place-items: center;
     color: #1f1e1e;
-    background-color: hwb(0 72% 23%);
+    background-color:#0f172a;
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.caja {
+.box {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     position: relative;
     width: 220px;
     height: 280px;
-    background: #d1cdcd;
+    background: #1e293b;
     padding: 20px;
-    border-radius: 60px;
+    border-radius: 2px;
 }
 
-.caja::before,
+.box::before,
 .loginMask {
     content: "";
     top: 50%;
@@ -29,7 +30,7 @@ body {
     height: 500px;
 }
 
-.caja::before {
+.box::before {
     background: url(../../images/Login-backgorund-logo.png);
 }
 
@@ -124,6 +125,7 @@ form {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 200rem;
 }
 
 html {
@@ -138,7 +140,7 @@ input {
 }
 
 label {
-    color: rgb(39, 39, 39);
+    color: #e2e8f0;
 }
 
 input[type="contra"] {
@@ -149,7 +151,7 @@ input[type="contra"],
 input[type="email"],
 a {
     border: 1px #292727;
-    border-radius: 40px;
+    border-radius: 5px;
     padding: 5px 10px;
 }
 
@@ -157,27 +159,19 @@ input[type="submit"] {
     border: none;
     border-radius: 100px;
     padding: 10px 20px;
-    background-color: #809696;
-    color: rgb(43, 43, 43);
+    background-color: #fbbf24;
+    color: rgb(26, 26, 26);
+    margin-top: 20px;
+
 }
 
 input[type="submit"]:is(:hover, :focus) {
-    background-color: #3452b5;
+    background-color: #dc2626;
     letter-spacing: 1px;
     cursor: pointer;
     color: #dbd9d9;
 }
 
-.desplegar {
-    border: none;
-    border-radius: 100px;
-    color: rgb(43, 43, 43);
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    display: inline-block;
-}
 
 .boton {
     background-color: #afacac;
@@ -200,7 +194,7 @@ input[type="submit"]:is(:hover, :focus) {
 
 a {
     border-radius: 30%;
-    color: #3b3b3b;
+    color: #e2e8f0;
 }
 
 .desplegar-contenido a {
