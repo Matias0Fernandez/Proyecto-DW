@@ -1,6 +1,9 @@
-To install TailWind, follow these instructions:
+(SOLO PULLEEN Y SIGAN LAS INSTRUNCCIONES, NO ES NECESARIO NADA MAS
+
+
+To install TailWind, do this:
 ```
-https://tailwindcss.com/docs/installation
+npm install
 ```
 And then
 
