@@ -1,10 +1,11 @@
-(SOLO PULLEEN Y SIGAN LAS INSTRUNCCIONES, NO ES NECESARIO NADA MAS
-
+(SOLO PULLEEN Y SIGAN LAS INSTRUNCCIONES, NO ES NECESARIO NADA MAS)
 
 To install TailWind, do this:
+
 ```
 npm install
 ```
+
 And then
 
 To run TailWind use:
