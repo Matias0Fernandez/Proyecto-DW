@@ -1,4 +1,10 @@
-(SOLO PULLEEN Y SIGAN LAS INSTRUNCCIONES, NO ES NECESARIO NADA MAS)
+(HAGAN "GIT PULL ORIGIN (nombre de la rama)" Y LUEGO SIGAN LAS INSTRUCCIONES, NO ES NECESARIO NADA MAS)
+
+Install "node.js", copy and paste the following link and the download will start:
+
+```
+https://nodejs.org/dist/v18.16.1/node-v18.16.1-x64.msi
+```
 
 To install TailWind, do this:
 
