@@ -1,30 +1,53 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <link rel="stylesheet" href="../../Users-SingIn/register/Css_Register.css" />
+    <title>Register | LudoCode</title>
+    <link href="../../dist/output.css" rel="stylesheet" />
+  </head>
 
-<head>
-    <link rel="stylesheet" href="../../Users-SingIn/register/Css_Register.css">
-    <title>log in</title>
-</head>
+  <body>
+    <div class="box">
+      <span class="logInMask"></span>
+      <a>
+        <h1>Register</h1>
+      </a>
+      <form style="color: white" action="../../Main-View/Menú/Menu_code.html">
+        <label for="username">Username:</label>
+        <input
+          placeholder="username"
+          type="username"
+          id="usr"
+          name="username"
+          required
+        />
+        <label for="username">Name:</label>
+        <input
+          placeholder="name"
+          type="name"
+          id="usrname"
+          name="name"
+          required
+        />
+        <label for="email">Email:</label>
+        <input
+          placeholder="email"
+          type="email"
+          id="cor"
+          name="email"
+          required
+        />
+        <label for="password">Password:</label>
+        <input
+          placeholder="password"
+          type="pass"
+          id="tel"
+          name="password"
+          required
+        />
 
-<body>
-
-
+        <input class="button" name="input" type="submit" value="join" />
+      </form>
     </div>
-    <div class="caja">
-        <span class="loginMask"></span>
-        <a>
-            <h1> Login</h1>
-        </a>
-        <form style="color: white" action="../../Main-View/Menú/Menu_code.html">
-            <label for="correo">Email:</label>
-            <input type="email" id="cor" name="correo" required>
-            <label for="Contraseña" aria-placeholder="password" >Password:</label>
-            <input type="contra" id="tel" name="password" required>
-            <input class="botonPa" name="Ingreso" type="submit" value="Ingresar">
-    </div>
-</body>
-
-</html>
-</body>
-
+  </body>
 </html>

@@ -12,10 +12,10 @@ body {
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
   position: relative;
   width: 260px;
-  height: 300px;
+  height: 310px;
   background: #1e293b;
   padding: 20px;
-  border-radius: 2px;
+  border-radius: 5px;
 }
 
 .box::before,
@@ -30,6 +30,7 @@ body {
   width: 500px;
   height: 500px;
 }
+
 .box::before {
   background: url(../../images/Login-backgorund-logo.png);
 }
@@ -115,9 +116,15 @@ body {
 a {
   display: flex;
   justify-content: center;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: xx-large;
+  border-bottom: solid;
   color: #dbd9d9;
+  margin-bottom: 10px;
+  border-bottom: solid;
+  border-bottom-color: #def1ea;
+  border-width: 1.5px;
+  border-radius: 2.5px;
 }
 
 form {
@@ -150,6 +157,7 @@ input[type="pass"] {
 input[type="pass"],
 input[type="email"],
 a {
+  
   border: 1px #292727;
   border-radius: 5px;
   padding: 5px 10px;
@@ -191,39 +199,13 @@ input[type="submit"]:is(:hover, :focus) {
 }
 
 a {
-  border-radius: 30%;
-  color: #e2e8f0;
+  margin-bottom: 10px;
+  border-bottom: solid;
+  border-bottom-color: #def1ea;
+  border-width: 1.5px;
+  border-radius: 0%;
+  color: #e2e8f0
 }
-
-.desplegar-contenido a {
-  color: #333;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.desplegar:hover .desplegar-contenido {
-  display: contents;
-}
-
 label {
   margin-top: 1rem;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
 }
