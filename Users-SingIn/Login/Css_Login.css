@@ -7,14 +7,18 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+h1 {
+  padding-bottom: 10px;
+}
+
 .box {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
   position: relative;
   width: 260px;
-  height: 310px;
+  height: 345px;
   background: #1e293b;
-  padding: 20px;
+  padding: 15px;
   border-radius: 5px;
 }
 
@@ -113,7 +117,7 @@ body {
   }
 }
 
-a {
+.LoginTitle {
   display: flex;
   justify-content: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -125,6 +129,13 @@ a {
   border-bottom-color: #def1ea;
   border-width: 1.5px;
   border-radius: 2.5px;
+  margin-bottom: 0px;
+  border-bottom: solid;
+  border-bottom-color: #def1ea;
+  border-width: 1.5px;
+  border-radius: 0%;
+  color: #e2e8f0;
+
 }
 
 form {
@@ -147,6 +158,7 @@ input {
 }
 
 label {
+  margin-top: 15px;
   color: #e2e8f0;
 }
 
@@ -157,19 +169,18 @@ input[type="pass"] {
 input[type="pass"],
 input[type="email"],
 a {
-  
+
   border: 1px #292727;
   border-radius: 5px;
-  padding: 5px 10px;
+  padding: 0px 10px;
 }
 
 input[type="submit"] {
-  border: none;
   border-radius: 100px;
-  padding: 10px 20px;
+  padding: 0px 15px;
   background-color: #fbbf24;
   color: rgb(26, 26, 26);
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 input[type="submit"]:is(:hover, :focus) {
@@ -197,15 +208,21 @@ input[type="submit"]:is(:hover, :focus) {
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
-
-a {
-  margin-bottom: 10px;
-  border-bottom: solid;
-  border-bottom-color: #def1ea;
-  border-width: 1.5px;
-  border-radius: 0%;
-  color: #e2e8f0
+.p-RedirectToRegisterPage{
+  display: flex;
+  padding: 5px 0px;
+   
 }
-label {
-  margin-top: 1rem;
+.a-RedirectToRegisterPage,
+.p-RedirectToRegisterPage
+{
+  font-size: 12px;
+  color: #e2e8f0;
+
+}
+.a-RedirectToRegisterPage{
+  color:#ffffff;
+}
+.a-RedirectToRegisterPage:is(:hover){
+  color:#2a52d4;
 }
