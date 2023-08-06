@@ -1,29 +1,124 @@
 body {
     display: grid;
     place-items: center;
-    color: #1f1e1e;
-    background-color: #464545;
+    color: #ffffff;
+    background-color: #0f172a;
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-.caja {
+.box {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+        rgba(0, 0, 0, 0.22) 0px 10px 10px;
     position: relative;
-    width: 220px;
-    height: 400px;
-    background: #adabab;
-    padding: 20px;
-    border-radius: 60px;
+    width: 275px;
+    height: 455px;
+    background: #1e293b;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.box::before,
+.logInMask {
+    content: "";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 500px;
+    height: 500px;
+}
+
+.box::before {
+    background: url(../../images/Login-backgorund-logo.png);
+}
+
+.logInMask {
+    display: grid;
+    place-items: center;
+    -webkit-mask: url(../../images/Login-backgorund-logo.png);
+    mask: url(../../images/Login-backgorund-logo.png);
+}
+
+.logInMask::before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 0%;
+    animation: mov1 12s infinite;
+}
+
+@keyframes mov1 {
+    0% {
+        background-color: #33b822;
+        transform: scale(0);
+    }
+
+    9% {
+        background-color: #33b822;
+        transform: scale(2);
+    }
+
+    18% {
+        background-color: #df2727;
+        transform: scale(2);
+    }
+
+    27% {
+        background-color: #df2727;
+        transform: scale(3);
+    }
+
+    36% {
+        background-color: #ceac17;
+        transform: scale(3);
+    }
+
+    45% {
+        background-color: #ceac17;
+        transform: scale(4);
+    }
+
+    54% {
+        background-color: #2a52d4;
+        transform: scale(5);
+    }
+
+    63% {
+        background-color: #2a52d4;
+        transform: scale(5);
+    }
+
+    72% {
+        background-color: #33b822;
+        transform: scale(4);
+    }
+
+    81% {
+        background-color: #33b822;
+        transform: scale(3);
+    }
+
+    90% {
+        background-color: #df2727;
+        transform: scale(3);
+    }
+
+    99% {
+        background-color: #df2727;
+        transform: scale(2);
+    }
 }
 
 a {
     display: flex;
     justify-content: center;
-    color: rgb(17, 17, 17);
-    font-family: 'Courier New', Courier, monospace;
-
-
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    color: #dbd9d9;
 }
 
 form {
@@ -31,12 +126,11 @@ form {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
-
+    margin-bottom: 200rem;
 }
 
 html {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     justify-content: center;
     align-items: center;
 }
@@ -47,31 +141,71 @@ input {
 }
 
 label {
-    color: rgb(39, 39, 39);
+    margin-top: 5px;
+    color: #e2e8f0;
 }
 
-input[type="contra"],
-input[type="apellido"],
+input[type="pass"] {
+    -webkit-text-security: disc;
+}
+
+input[type="pass"],
 input[type="name"],
+input[type="username"],
 input[type="email"],
 a {
     border: 1px #292727;
-    border-radius: 40px;
-    padding: 5px 10px;
-
-
+    border-radius: 5px;
+    padding: 0px 10px;
 }
 
+input[type="username"],
+input[type="name"] {
+    display: block;
+}
 
 input[type="submit"] {
-    border: none;
     border-radius: 100px;
-    padding: 10px 20px;
-    background-color: #809696;
-    color: rgb(43, 43, 43);
+    padding: 0px 15px;
+    background-color: #fbbf24;
+    color: rgb(26, 26, 26);
+    margin-top: 10px;
+  }
+  
+  input[type="submit"]:is(:hover, :focus) {
+    background-color: #dc2626;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    color: #dbd9d9;
+  }
+.boton {
+    background-color: #afacac;
+    border-radius: 30%;
+    color: #3b3b3b;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
 }
 
+.desplegar-contenido {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
 
-label {
-    margin-top: 1rem;
+.RegisterTitle{
+    margin-bottom: 5px;
+    border-bottom: solid;
+    border-bottom-color: #def1ea;
+    border-width: 1.5px;
+    border-radius: 0%;
+    border-radius: 0%;
+    color: #e2e8f0;
+}
+h1{
+    padding: 10px;
 }
